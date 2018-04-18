@@ -1,0 +1,468 @@
+body {
+  font-family: "arial-black", "arial black";
+  background-color: #AA0E20;
+}
+
+.productNames {
+	display: inline;
+	padding-left: 0.5em;
+	color: white;
+}
+
+.ingredientNames {
+	display: inline;
+	padding-left: 0.5em;
+	color: white;
+}
+
+#burgersTitle, #sidesTitle, #drinksTitle {
+	color: white;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+#burgers-underline, #sides-underline, #drinks-underline {
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+
+@media screen and (max-width: 767px) {
+	.productItem {
+		padding-left: 25vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.productNames {
+		font-size: 4vw;
+	}
+
+	.productCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 75%;
+	}
+
+	#sides-underline {
+	  width: 50%;
+	}
+
+	#drinks-underline {
+	  width: 60%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 10vw;
+	}
+	
+	#addToProductsBurger {
+		margin-left: 25vw;
+		margin-bottom: 10vw;
+		margin-right: 25vw;
+		margin-top: 10vw;
+		width: 50vw;
+		font-size: 4vw;
+	}
+	
+	#addToProductsSide {
+		margin-left: 30vw;
+		margin-bottom: 10vw;
+		margin-right: 30vw;
+		margin-top: 10vw;
+		width: 40vw;
+		font-size: 4vw;
+	}
+	
+	#addToProductsDrink {
+		margin-left: 27.5vw;
+		margin-bottom: 10vw;
+		margin-right: 27.5vw;
+		margin-top: 10vw;
+		width: 45vw;
+		font-size: 4vw;
+	}
+	
+	.ingredientItem {
+		padding-left: 25vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.ingredientNames {
+		font-size: 4vw;
+	}
+
+	.ingredientCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	#nameYourProduct {
+		margin-top: 5vw;
+		text-align: center;
+		font-size: 5vw;
+		color: white;
+	}
+	
+	#productName {
+		margin-left: 25vw;
+		margin-right: 25vw;
+		width: 50vw;
+		height: 5vw;
+		font-size: 3vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 23.5vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 25vw;
+		font-size: 4vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 25vw;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (min-width: 768px) {	
+	.productItem {
+		padding-left: 8vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.productNames {
+		font-size: 3vw;
+	}
+	
+	.productCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 60%;
+	}
+
+	#sides-underline {
+	  width: 40%;
+	}
+
+	#drinks-underline {
+	  width: 50%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 8vw;
+	}
+	
+	#addToProductsBurger {
+		margin-left: 31vw;
+		margin-bottom: 8vw;
+		margin-right: 31vw;
+		margin-top: 8vw;
+		width: 38vw;
+		font-size: 3vw;
+	}
+	
+	#addToProductsSide {
+		margin-left: 35vw;
+		margin-bottom: 8vw;
+		margin-right: 35vw;
+		margin-top: 8vw;
+		width: 30vw;
+		font-size: 3vw;
+	}
+	
+	#addToProductsDrink {
+		margin-left: 34vw;
+		margin-bottom: 8vw;
+		margin-right: 34vw;
+		margin-top: 8vw;
+		width: 32vw;
+		font-size: 3vw;
+	}
+	
+	.ingredientItem {
+		padding-left: 8vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.ingredientNames {
+		font-size: 3vw;
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	#nameYourProduct {
+		margin-top: 5vw;
+		text-align: center;
+		font-size: 3.5vw;
+		color: white;
+	}
+	
+	#productName {
+		margin-left: 32vw;
+		margin-right: 33vw;
+		width: 35vw;
+		height: 3.5vw;
+		font-size: 2.5vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 30vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 18vw;
+		font-size: 3vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 18vw;
+		font-size: 3vw;
+	}
+}
+
+@media screen and (min-width: 992px) {	
+	.productItem {
+		padding-left: 10vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.productNames {
+		font-size: 2.25vw;
+	}
+	
+	.productCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 50%;
+	}
+
+	#sides-underline {
+	  width: 35%;
+	}
+
+	#drinks-underline {
+	  width: 45%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 7vw;
+	}
+	
+	#addToProductsBurger {
+		margin-left: 37.5vw;
+		margin-bottom: 6vw;
+		margin-right: 37.5vw;
+		margin-top: 6vw;
+		width: 25vw;
+		font-size: 2vw;
+	}
+	
+	#addToProductsSide {
+		margin-left: 39vw;
+		margin-bottom: 6vw;
+		margin-right: 39vw;
+		margin-top: 6vw;
+		width: 22vw;
+		font-size: 2vw;
+	}
+	
+	#addToProductsDrink {
+		margin-left: 38vw;
+		margin-bottom: 6vw;
+		margin-right: 38vw;
+		margin-top: 6vw;
+		width: 24vw;
+		font-size: 2vw;
+	}
+	
+	.ingredientItem {
+		padding-left: 10vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.ingredientNames {
+		font-size: 2.25vw;
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	#nameYourProduct {
+		margin-top: 5vw;
+		margin-left: 2vw;
+		font-size: 2.5vw;
+		color: white;
+	}
+	
+	#productName {
+		margin-left: 37.5vw;
+		margin-right: 37.5vw;
+		width: 25vw;
+		height: 2.5vw;
+		font-size: 2vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 36.5vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.productItem {
+		padding-left: 5vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.productNames {
+		font-size: 2vw;
+	}
+	
+	.productCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	#addToProductsBurger {
+		margin-left: 37.5vw;
+		margin-bottom: 6vw;
+		margin-right: 37.5vw;
+		margin-top: 6vw;
+		width: 25vw;
+		font-size: 2vw;
+	}
+	
+	#addToProductsSide {
+		margin-left: 39vw;
+		margin-bottom: 6vw;
+		margin-right: 39vw;
+		margin-top: 6vw;
+		width: 22vw;
+		font-size: 2vw;
+	}
+	
+	#addToProductsDrink {
+		margin-left: 38vw;
+		margin-bottom: 6vw;
+		margin-right: 38vw;
+		margin-top: 6vw;
+		width: 24vw;
+		font-size: 2vw;
+	}
+	
+	#burgers-underline {
+	  width: 35%;
+	}
+
+	#sides-underline {
+	  width: 25%;
+	}
+
+	#drinks-underline {
+	  width: 30%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 5vw;
+	}
+	
+	.ingredientItem {
+		padding-left: 5vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.ingredientNames {
+		font-size: 2vw;
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	#nameYourProduct {
+		margin-top: 5vw;
+		margin-left: 2vw;
+		font-size: 2.5vw;
+		color: white;
+	}
+	
+	#productName {
+		margin-left: 37.5vw;
+		margin-right: 37.5vw;
+		width: 25vw;
+		height: 2.5vw;
+		font-size: 2vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 36.5vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 5vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+}

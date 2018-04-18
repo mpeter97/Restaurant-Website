@@ -1,0 +1,64 @@
+AddToCustomBurgers.php - Echoes the box and buttons that allow you to name your burger on the ORDER page
+AddToOrder.php - Inserts information regarding the selected item into arrays
+AddToProuducts.php - Displays all ingredients for product type as well as a textbox where you type in the name
+                     of your new product
+CancelAddingToProducts.php - Resets $_SESSION["selectedProductIngredients"] array
+ChangeLoginPage.php - Changes $_SESSION{"login"] between "login" and "register"
+ChangeMenu.php - Assigns passed value to $_SESSION["restaurantNumber"]
+CheckLogin.php - Checks if passed username and password exist in user_login table
+CheckManagerLogin.php - Checks if passed username and password exist in user_login table AND if that manager
+			manages the respective store
+CheckRegister.php - Inserts valid information into the user_login table
+ContactUs.php - Echoes respective contact section depending on whether the user is logged in or not
+CustomerOrders.php - Used for displaying current customer orders to employee/manager/owner
+CustomerReviews.php - Displays selected customer reveiws on main page
+DecideMenuEditorManagerType.php - Determines whether a manager of a single/multiple stores is currently logged in
+DecideRestaurantInfoManagerType.php - Determines whether the manager is of a single/multiple stores
+DecideUserType.php - Determines whether an employee/manager is currently logged in
+DisplayCategories.php - Echoes category section at top of ORDER page
+DisplayCustomerOrders.php - Echoes current customer orders on CustomerOrders.php
+DisplayEmployeeManagerLogin.php - Echoes the MANAGER LOGIN section required when an employee goes to 
+				  CustomerOrders.php
+DisplayIngredients.php - Echoes ingredients (or nothing) on ORDER page
+DisplayItems.php - Echoes item options (burgers, sides, drinks, custom burgers) on ORDER page
+DisplayManagerStoreSelection.php - Echoes the selection of stores on CustomerOrders.php for managers of
+				   multiple stores
+DisplayMenu.php - Echoes menu of selected restaurant on MENU page
+DisplayMenuEditorItems.php - Displays all the menu items with their check boxes
+DisplayMenuEditorManagerStoreSelection.php - Displays a dropdown with that manager's stores listed (This only runs
+					     if you are a manager of multiple stores)
+DisplayOrder.php - Echoes the pre-receipt shown at the bottom of the ORDER page
+DisplayOrderLocations.php - Echoes the selection of stores on ORDER page
+DisplayProductEditorItems.php - Displays all the available products at THREE GUYS with check boxes next to them
+				with the products that are available at all restaurants checked
+DisplayReceipt.php - Echoes out the final receipt after the CHECKOUT button is pressed on the ORDER page
+DisplayRestaurantInfo.php - Echoes out the respective restaurant data
+DisplayRestaurantInfoSelections.php - Displays the dropdowns for selecting a restaurant and info type
+DisplaySubmitButtons.php - Echoes the "Add to Order" and "Add to Custom Burgers" buttons on the ORDER page
+DoneAddingToCustomBurgers.php - Inserts a custom burger into the user_products table
+DoneAddingToProducts.php - Inserts the new product into store_product_ingredients for burgers and sides and
+			   inserts the the new ingredient into ingredient_information for drinks
+FinishOrder.php - Updates the order_user table with who clicked the X on CustomerOrders.php and when it was clicked
+Footer.php - Black bar with social media icons shown along bottom of Main.php
+GoogleMarkersToBrowser.php - Puts restaurant markers on LOCATIONS page
+Head.php - Echoes bar shown along the top of every page
+Location.php - Echoes all HTML, CSS, and JavaScript for LOCATIONS page
+locations.xml - Contains hard-coded restaurant information for LOCATIONS page
+LoginPage.php - Echoes respective information for login/registration page and runs CheckLogin.php and
+		CheckRegister.php, respectively
+Logout.php - Sets $_SESSION["username"] to ""
+Main.php - Includes Head.php, Title.php, CustomerReviews.php, ContactUs.php, and Footer.php, checks login
+	   and register, and submits comments
+Menu.php - Displays menu using ChangeMenu.php and some JavaScript
+MenuEditor.php - Allows to check/uncheck boxes in order to decide what will come on a restaurant's menu
+Order.php - Uses JavaScript functions and $_SESSION variables to display order information
+ProductEditor.php - Uses Javascript functions to display the product editor page
+RemoveItem.php - Sets a $_SESSION["prices"] value to -1 to indicate it's no longer on the order
+RestaurantInfo.php - Uses Javascript functions to display restaurant information
+SubmitComment.php - Inserts passed information from the comment/concern section on the main page into the
+		    user_comments table
+Title.php - 'THREE GUYS "Never fresh, always frozen"' section on main page
+
+
+
+PASSWORDS: First 5 letters of Username + Numbers at end of Username + "Password"

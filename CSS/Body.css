@@ -1,0 +1,474 @@
+body {
+  font-family: "arial-black", "arial black";
+  background-color: white;
+  overflow-x: hidden;
+}
+
+#titleBackground {
+  z-index: -1;
+  background-color: black;
+}
+
+#about {
+  margin-top: -2vw;
+  text-shadow: 0 0 10em black;
+  border-bottom: 0.25em solid #770000;
+}
+
+#about img {
+  z-index: 0;
+  width: 100%;
+}
+hr {
+  width: 60vw;
+  margin-top: 3em;
+}
+
+#about h1{
+  text-shadow: 0 0 10px black;
+  font-size: 8vw;
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 15;
+  top: 12vw;
+  left: 0;
+  right: 0;
+
+}
+
+#about h2{
+  margin-top: 8px;
+  text-shadow: 0 0 10px black;
+  font-size: 2vw;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 15;
+  top: 25vw;
+  left: 0;
+  right: 0;
+
+}
+
+#menuBody{
+  background-color: red;
+  text-shadow: 0 0 10px black;
+  font-size: 4vw;
+  color: white;
+  text-align: center;
+}
+
+/*What our customers say
+///////////////////////////////////////////////////////////////////*/
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #FF0000 !important;
+	top: 10vw;
+	bottom: 20vw;
+}
+.carousel-indicators li {
+    border-color: #FF3333;
+}
+.carousel-indicators li.active {
+    background-color: #FF3333;
+}
+.item h5 {
+    font-size: 2vw;
+    line-height: 3vw;
+    font-style: italic;
+	margin: 3em 0em;
+}
+.item span {
+    font-style: normal;
+}
+.custTalk h3 {
+  font-size: 4vw;
+  text-align: center;
+}
+
+.custTalk {
+	min-height: 30vw;
+	max-height: 30vw;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+
+
+@media screen and (max-width: 767px) {
+  #about img {
+    content: url("../Pictures/TitleBackgroundMobile.png");
+  }
+  #about h1 {
+	 top: 35vw;
+	 font-size: 10vw;
+  }
+  #about h2 {
+	 top: 52vw;
+	 font-size: 3vw;
+  }
+  
+  .carousel-inner h5 {
+	  font-size: 3vw;
+	  margin-left: 10%;
+	  margin-right: 10%;
+  }
+  
+  .custTalk {
+	min-height: 30vw;
+	max-height: 30vw;
+  }
+  .carousel-control.right, .carousel-control.left {
+	top: 10vw;
+	bottom: 20vw;
+  }
+  
+  .contactUs {
+	background-color: #AA0E20;
+	}
+
+	#commentsTitle {
+		text-align: center;
+		font-size: 4vw;
+		padding-top: 1em;
+		color: white;
+		padding-bottom: 5vw;
+		font-style: italic;
+	}
+
+	.form-group {
+		padding-left: 10vw;
+	}
+	
+	.form-group-logged-in h1, .form-group-logged-in select {
+		margin-left: 8vw;
+	}
+
+	.contact-label {
+		color: white;
+		font-size: 3.5vw;
+	}
+
+	.contactUs .glyphicon {
+	  position: absolute;
+	  font-size: 3vw;
+	  margin-top: 7%;
+	  margin-left: 0.4em;
+	}
+
+	.contactType {
+		height: 6vw;
+		font-size: 3vw;
+		width: 80vw;
+	}
+
+	.contactUs input { 
+		padding-left: 6vw;
+		height: 6vw;
+		font-size: 3vw;
+		width: 80vw;
+	}
+
+	#commentArea {
+		margin-top: 5vw;
+		margin-left: 12.5vw;
+		margin-right: 17.5vw;
+		font-size: 3vw;
+		width: 70vw;
+	}
+
+	.commentSubmit {
+		margin-left: 37.5%;
+		margin-right: 37.5%;
+		margin-bottom: 5vw;
+		width: 25%;
+		margin-top: 5vw;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+  #about img {
+    content: url("../Pictures/TitleBackgroundMobile.png");
+  }
+  #about h1 {
+	 top: 35vw;
+	 font-size: 10vw;
+  }
+  #about h2 {
+	 top: 50vw;
+	 font-size: 3vw;
+  }
+  
+  .carousel h5 {
+	  font-size: 2.5vw;
+	  margin-left: 10%;
+	  margin-right: 10%;
+  }
+  
+  .custTalk {
+	min-height: 30vw;
+	max-height: 30vw;
+  }
+  .carousel-control.right, .carousel-control.left {
+	top: 10vw;
+	bottom: 20vw;
+  }
+  
+  .contactUs {
+	background-color: #AA0E20;
+	}
+
+	#commentsTitle {
+		text-align: center;
+		font-size: 4vw;
+		padding-top: 1em;
+		color: white;
+		padding-bottom: 5vw;
+		font-style: italic;
+	}
+
+	.form-group {
+		padding-left: 10vw;
+	}
+	
+	.form-group-logged-in h1, .form-group-logged-in select {
+		margin-left: 10vw;
+	}
+
+	.contact-label {
+		color: white;
+		font-size: 3vw;
+	}
+
+	.contactUs .glyphicon {
+	  position: absolute;
+	  font-size: 2vw;
+	  margin-top: 5%;
+	  margin-left: 0.4em;
+	}
+
+	.contactType {
+		height: 4vw;
+		font-size: 2vw;
+		width: 80vw;
+	}
+
+	.contactUs input { 
+		padding-left: 4vw;
+		height: 4vw;
+		font-size: 2vw;
+		width: 80vw;
+	}
+
+	#commentArea {
+		margin-top: 5vw;
+		margin-left: 15vw;
+		margin-right: 15vw;
+		font-size: 2vw;
+		width: 70vw;
+	}
+
+	.commentSubmit {
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 5vw;
+		width: 20%;
+		margin-top: 5vw;
+		font-size: 3vw;
+	}
+}
+
+@media screen and (min-width: 992px) {
+  #about img {
+    content: url("../Pictures/TitleBackground.png");
+  }
+  #about h1 {
+	  top: 12vw;
+	  font-size: 8vw;
+  }
+  #about h2 {
+	  top: 25vw;
+	  font-size: 2vw;
+  }
+  .carousel h5 {
+	  font-size: 2vw;
+	  margin-left: 10%;
+	  margin-right: 10%;
+  }
+  
+  .custTalk {
+	min-height: 25vw;
+	max-height: 25vw;
+  }
+  .carousel-control.right, .carousel-control.left {
+	top: 8vw;
+	bottom: 17vw;
+  }
+  
+  .contactUs {
+	background-color: #AA0E20;
+	}
+
+	#commentsTitle {
+		text-align: center;
+		font-size: 4vw;
+		padding-top: 1em;
+		color: white;
+		padding-bottom: 5vw;
+		font-style: italic;
+	}
+
+	.form-group {
+		padding-left: 10vw;
+	}
+	
+	.form-group-logged-in h1, .form-group-logged-in select {
+		margin-left: 10vw;
+	}
+
+	.contact-label {
+		color: white;
+		font-size: 3vw;
+	}
+
+	.contactUs .glyphicon {
+	  position: absolute;
+	  font-size: 1.5vw;
+	  margin-top: 12%;
+	  margin-left: 0.4em;
+	}
+
+	.contactType {
+		height: 3vw;
+		font-size: 1.5vw;
+		width: 80%;
+	}
+
+	.contactUs input { 
+		padding-left: 2.5vw;
+		height: 3vw;
+		font-size: 1.5vw;
+		width: 80%;
+	}
+
+	#commentArea {
+		margin-top: 5vw;
+		margin-left: 15vw;
+		margin-right: 15vw;
+		font-size: 1.5vw;
+		width: 70vw;
+	}
+
+	.commentSubmit {
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 5vw;
+		width: 20%;
+		margin-top: 5vw;
+		font-size: 3vw;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+  #about img {
+    content: url("../Pictures/TitleBackground.png");
+  }
+  #about h1 {
+	  top: 12vw;
+	  font-size: 8vw;
+  }
+  #about h2 {
+	  top: 25vw;
+	  font-size: 2vw;
+  }
+  .carousel h5 {
+	  font-size: 2vw;
+	  margin-left: 10%;
+	  margin-right: 10%;
+  }
+  .custTalk {
+	min-height: 25vw;
+	max-height: 25vw;
+  }
+  .carousel-control.right, .carousel-control.left {
+	top: 8vw;
+	bottom: 17vw;
+  }
+  
+  .contactUs {
+	background-color: #AA0E20;
+	}
+
+	#commentsTitle {
+		text-align: center;
+		font-size: 4vw;
+		padding-top: 1em;
+		color: white;
+		padding-bottom: 5vw;
+		font-style: italic;
+	}
+
+	.form-group {
+		padding-left: 10vw;
+	}
+	
+	.form-group-logged-in h1, .form-group-logged-in select {
+		margin-left: 10vw;
+	}
+
+	.contact-label {
+		color: white;
+		font-size: 3vw;
+	}
+
+	.contactUs .glyphicon {
+	  position: absolute;
+	  font-size: 1.5vw;
+	  margin-top: 12%;
+	  margin-left: 0.4em;
+	}
+
+	.contactType {
+		height: 3vw;
+		font-size: 1.5vw;
+		width: 80%;
+	}
+
+	.contactUs input { 
+		padding-left: 2.5vw;
+		height: 3vw;
+		font-size: 1.5vw;
+		width: 80%;
+	}
+
+	#commentArea {
+		margin-top: 5vw;
+		margin-left: 15vw;
+		margin-right: 15vw;
+		font-size: 1.5vw;
+		width: 70vw;
+	}
+
+	.commentSubmit {
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 5vw;
+		width: 20%;
+		margin-top: 5vw;
+		font-size: 3vw;
+	}
+}
+
+
+
+

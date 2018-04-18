@@ -1,0 +1,1175 @@
+body {
+	font-family: "arial-black", "arial black";
+	background-color: #AA0E20;
+}
+
+
+#locationSelection {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 5em;
+}
+
+#orderArea1 {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+#orderArea2 {
+	margin-bottom: 5em;
+}
+
+
+#orderArea1 h1 {
+	font-size: 1.4em;
+	padding: 1em;
+	margin: 0;
+	color: white;
+	background-color: #AA0E20;
+	text-align: center;
+}
+
+#orderArea1 h1:hover {
+	background-color: white;
+	color: black;
+}
+
+.itemNames, .ingredientNames {
+	display: inline;
+	padding-left: 0.5em;
+	color: white;
+}
+
+#orderContents {
+	margin-top: 5vw;
+	background-color: white;
+	color: black;
+}
+
+#orderTitle {
+	padding-top: 3vw;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 5vw;
+}
+
+
+@media screen and (max-width: 767px) {
+	#orderArea1 h1 {
+		font-size: 5vw;
+	}
+	
+	.menuItem, .ingredientItem {
+		padding-left: 25vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.itemNames, .ingredientNames {
+		font-size: 4vw;
+	}
+	
+	.itemOptions {
+		width: 1.5em;
+		vertical-align: -0.25em;
+		display: inline-block:
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	.one-button-order {
+		margin-left: 25vw;
+		margin-right: 25vw;
+		margin-bottom: 3vw;
+		width: 50vw;
+		font-size: 5vw;
+	}
+	
+	.two-buttons-order {
+		margin-top: 10vw;
+		margin-left: 25vw;
+		margin-right: 25vw;
+		margin-bottom: 3vw;
+		width: 50vw;
+		font-size: 5vw;
+	}
+	
+	
+	.two-buttons-custom {
+		margin-left: 10vw;
+		margin-right: 10vw;
+		margin-bottom: 10vw;
+		width: 80vw;
+		font-size: 5vw;
+	}
+	
+	.one-button-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-custom:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#nameYourBurger {
+		margin-top: -5vw;
+		text-align: center;
+		font-size: 5vw;
+		color: white;
+	}
+	
+	#burgerName {
+		margin-left: 25vw;
+		margin-right: 25vw;
+		width: 50vw;
+		height: 5vw;
+		font-size: 3vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 23.5vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 25vw;
+		font-size: 4vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 25vw;
+		font-size: 4vw;
+	}
+	
+	#cancelAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#doneAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#orderTitle {
+		font-size: 6vw;
+	}
+	
+	.orderItem {
+		padding-left: 5vw;
+		font-size: 4.5vw;
+	}
+
+	.removeItem {
+		font-size: 3vw;
+		color: black;
+	}
+
+	.removeItem:hover {
+		color: #AA0E20;
+	}
+
+	.itemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 4.5vw;
+	}
+
+	.itemIngredients {
+		margin-top: 1vw;
+		padding-left: 10vw;
+		font-size: 3vw;
+	}
+
+	#orderSubtotal {
+		padding-left: 5vw;
+		font-size: 5vw;
+	}
+
+	#subtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 4.5vw;
+	}
+
+	#orderTax {
+		padding-left: 5vw;
+		font-size: 5vw;
+	}
+
+	#taxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 4.5vw;
+	}
+
+	#orderTotal {
+		padding-left: 5vw;
+		font-size: 5vw;
+	}
+
+	#totalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 4.5vw;
+	}
+	
+	#checkoutButton {
+		margin-left: 30vw;
+		margin-right: 30vw;
+		margin-bottom: 8vw;
+		margin-top: 8vw;
+		width: 40vw;
+		font-size: 5vw;
+		background-color: #AA0E20;
+		color: white;
+	}
+	
+	#checkoutButton:hover {
+		background-color: #DD0612;
+	}
+	
+	#receiptContents {
+		font-family: 'Roboto Mono';
+		background-color: white;
+		color: black;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		margin-left: 15vw;
+		margin-right: 15vw;
+		width: 70vw;
+	}
+
+	#storeInformationArea {
+		padding-top: 5vw;
+	}
+	
+	#storeTitle {
+		font-family: "arial black", "arial-black";
+		font-size: 5.5vw;
+	}
+
+	.storeInformation {
+		text-align: center;
+		font-size: 2.5vw;
+	}
+
+	#orderNumber {
+		font-size: 2.75vw;
+		padding-left: 5vw;
+	}
+
+	.receiptItem {
+		padding-left: 5vw;
+		font-size: 3.25vw;
+	}
+
+	.receiptItemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.25vw;
+	}
+
+	.receiptItemIngredients {
+		margin-top: 1vw;
+		padding-left: 10vw;
+		font-size: 2.75vw;
+	}
+
+	#receiptSubtotal {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	#receiptSubtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+
+	#receiptTax {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	#receiptTaxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+
+	#receiptTotal {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	#receiptTotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+
+	#asterisks {
+		padding-left: 5vw;
+		font-size: 3vw;
+	}
+
+	.thanks {
+		margin-top: 0;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		text-align: center;
+		font-size: 2.75vw;
+	}
+
+	#thanksArea {
+		padding-bottom: 5vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#orderArea1 h1 {
+		font-size: 4vw;
+	}
+	
+	.menuItem, .ingredientItem {
+		padding-left: 8vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.itemNames, .ingredientNames {
+		font-size: 3vw;
+	}
+	
+	.itemOptions {
+		width: 1.5em;
+		vertical-align: -0.25em;
+		display: inline-block:
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	.one-button-order {
+		margin-left: 30vw;
+		margin-right: 30vw;
+		width: 40vw;
+		font-size: 4vw;
+	}
+	
+	.two-buttons-order {
+		margin-top: 10vw;
+		margin-left: 32.5vw;
+		margin-right: 32.5vw;
+		margin-bottom: 3vw;
+		width: 35vw;
+		font-size: 3.5vw;
+	}
+	
+	.two-buttons-custom {
+		margin-left: 20vw;
+		margin-right: 20vw;
+		margin-bottom: 10vw;
+		width: 60vw;
+		font-size: 3.5vw;
+	}
+	
+	.one-button-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-custom:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#nameYourBurger {
+		margin-top: -6vw;
+		text-align: center;
+		font-size: 3.5vw;
+		color: white;
+	}
+	
+	#burgerName {
+		margin-left: 32vw;
+		margin-right: 33vw;
+		width: 35vw;
+		height: 3.5vw;
+		font-size: 2.5vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 30vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 18vw;
+		font-size: 3vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 18vw;
+		font-size: 3vw;
+	}
+	
+	#cancelAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#doneAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#orderTitle {
+		font-size: 4.5vw;
+	}
+	
+	.orderItem {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	.removeItem {
+		font-size: 2.5vw;
+		color: black;
+	}
+
+	.removeItem:hover {
+		color: #AA0E20;
+	}
+
+	.itemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+
+	.itemIngredients {
+		margin-top: 1vw;
+		padding-left: 10vw;
+		font-size: 2.5vw;
+	}
+
+	#orderSubtotal {
+		padding-left: 5vw;
+		font-size: 4vw;
+	}
+
+	#subtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+
+	#orderTax {
+		padding-left: 5vw;
+		font-size: 4vw;
+	}
+
+	#taxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+
+	#orderTotal {
+		padding-left: 5vw;
+		font-size: 4vw;
+	}
+
+	#totalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3.5vw;
+	}
+	
+	#checkoutButton {
+		margin-left: 35vw;
+		margin-right: 35vw;
+		margin-bottom: 5vw;
+		margin-top: 5vw;
+		width: 30vw;
+		font-size: 4vw;
+		background-color: #AA0E20;
+		color: white;
+	}
+	
+	#checkoutButton:hover {
+		background-color: #DD0612;
+	}
+	
+	#receiptContents {
+		font-family: 'Roboto Mono';
+		background-color: white;
+		color: black;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		margin-left: 25vw;
+		width: 50vw;
+		margin-right: 25vw;
+	}
+	
+	#storeTitle {
+		font-family: "arial black", "arial-black";
+		font-size: 4vw;
+	}
+
+	#storeInformationArea {
+		padding-top: 5vw;
+	}
+
+	.storeInformation {
+		text-align: center;
+		font-size: 1.75vw;
+	}
+
+	#orderNumber {
+		font-size: 2vw;
+		padding-left: 5vw;
+	}
+
+	.receiptItem {
+		padding-left: 5vw;
+		font-size: 2.5vw;
+	}
+
+	.receiptItemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.5vw;
+	}
+
+	.receiptItemIngredients {
+		margin-top: 1vw;
+		padding-left: 10vw;
+		font-size: 2vw;
+	}
+
+	#receiptSubtotal {
+		padding-left: 5vw;
+		font-size: 2.75vw;
+	}
+
+	#receiptSubtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.75vw;
+	}
+
+	#receiptTax {
+		padding-left: 5vw;
+		font-size: 2.75vw;
+	}
+
+	#receiptTaxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.75vw;
+	}
+
+	#receiptTotal {
+		padding-left: 5vw;
+		font-size: 2.75vw;
+	}
+
+	#receiptTotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.75vw;
+	}
+
+	#asterisks {
+		padding-left: 5vw;
+		font-size: 2vw;
+	}
+
+	.thanks {
+		margin-top: 0;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		text-align: center;
+		font-size: 1.75vw;
+	}
+
+	#thanksArea {
+		padding-bottom: 5vw;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#orderArea1 h1 {
+		font-size: 3vw;
+	}
+	
+	.menuItem, .ingredientItem {
+		padding-left: 10vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.itemNames, .ingredientNames {
+		font-size: 2.25vw;
+	}
+	
+	.itemOptions {
+		width: 1.75em;
+		vertical-align: -0.25em;
+		display: inline-block;
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	.one-button-order {
+		margin-left: 35vw;
+		margin-right: 35vw;
+		width: 30vw;
+		font-size: 3vw;
+	}
+	
+	.two-buttons-order {
+		margin-top: 10vw;
+		margin-left: 11vw;
+		margin-right: 5.5vw;
+		margin-bottom: 10vw;
+		width: 25vw;
+		font-size: 2.5vw;
+	}
+	
+	.two-buttons-custom {
+		margin-top: 10vw;
+		margin-left: 5.5vw;
+		margin-right: 11vw;
+		margin-bottom: 10vw;
+		width: 40vw;
+		font-size: 2.5vw;
+	}
+	
+	.one-button-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-custom:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#nameYourBurger {
+		margin-top: -7vw;
+		margin-left: 36vw;
+		font-size: 2.5vw;
+		color: white;
+	}
+	
+	#burgerName {
+		margin-left: 55vw;
+		margin-right: 20vw;
+		width: 25vw;
+		height: 2.5vw;
+		font-size: 2vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 54vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+	
+	#cancelAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#doneAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#orderTitle {
+		font-size: 4vw;
+	}
+	
+	.orderItem {
+		padding-left: 5vw;
+		font-size: 3vw;
+	}
+
+	.removeItem {
+		font-size: 2vw;
+		color: black;
+	}
+
+	.removeItem:hover {
+		color: #AA0E20;
+	}
+
+	.itemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3vw;
+	}
+
+	.itemIngredients {
+		margin-top: 1vw;
+		padding-left: 10vw;
+		font-size: 2vw;
+	}
+
+	#orderSubtotal {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	#subtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3vw;
+	}
+
+	#orderTax {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	#taxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3vw;
+	}
+
+	#orderTotal {
+		padding-left: 5vw;
+		font-size: 3.5vw;
+	}
+
+	#totalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 3vw;
+	}
+	
+	#checkoutButton {
+		margin-left: 35vw;
+		margin-right: 35vw;
+		margin-bottom: 5vw;
+		margin-top: 5vw;
+		width: 30vw;
+		font-size: 4vw;
+		background-color: #AA0E20;
+		color: white;
+	}
+	
+	#checkoutButton:hover {
+		background-color: #DD0612;
+	}
+	
+	#receiptContents {
+		font-family: 'Roboto Mono';
+		background-color: white;
+		color: black;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		margin-left: 27.5vw;
+		margin-right: 27.5vw;
+		width: 45vw;
+	}
+	
+	#storeTitle {
+		font-family: "arial black", "arial-black";
+		font-size: 3.5vw;
+	}
+
+	#storeInformationArea {
+		padding-top: 5vw;
+	}
+
+	.storeInformation {
+		text-align: center;
+		font-size: 1.5vw;
+	}
+
+	#orderNumber {
+		font-size: 1.75vw;
+		padding-left: 5vw;
+	}
+
+	.receiptItem {
+		padding-left: 5vw;
+		font-size: 2vw;
+	}
+
+	.receiptItemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2vw;
+	}
+
+	.receiptItemIngredients {
+		margin-top: 1vw;
+		padding-left: 10vw;
+		font-size: 1.75vw;
+	}
+
+	#receiptSubtotal {
+		padding-left: 5vw;
+		font-size: 2.25vw;
+	}
+
+	#receiptSubtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.25vw;
+	}
+
+	#receiptTax {
+		padding-left: 5vw;
+		font-size: 2.25vw;
+	}
+
+	#receiptTaxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.25vw;
+	}
+
+	#receiptTotal {
+		padding-left: 5vw;
+		font-size: 2.25vw;
+	}
+
+	#receiptTotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2.25vw;
+	}
+
+	#asterisks {
+		padding-left: 5vw;
+		font-size: 1.75vw;
+	}
+
+	.thanks {
+		margin-top: 0;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		text-align: center;
+		font-size: 1.5vw;
+	}
+
+	#thanksArea {
+		padding-bottom: 5vw;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#orderArea1 h1 {
+		font-size: 2.5vw;
+	}
+	
+	.menuItem, .ingredientItem {
+		padding-left: 5vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.itemNames, .ingredientNames {
+		font-size: 2vw;
+	}
+	
+	.itemOptions {
+		width: 1.75em;
+		vertical-align: -0.25em;
+		display: inline-block:
+	}
+	
+	.ingredientCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	.one-button-order {
+		margin-left: 37.5vw;
+		margin-right: 37.5vw;
+		width: 25vw;
+		font-size: 2.5vw;
+	}
+	
+	.two-buttons-order {
+		margin-top: 10vw;
+		margin-left: 11vw;
+		margin-right: 5.5vw;
+		margin-bottom: 10vw;
+		width: 25vw;
+		font-size: 2.5vw;
+	}
+	
+	.two-buttons-custom {
+		margin-top: 10vw;
+		margin-left: 5.5vw;
+		margin-right: 11vw;
+		margin-bottom: 10vw;
+		width: 40vw;
+		font-size: 2.5vw;
+	}
+	
+	.one-button-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-order:hover {
+		background-color: #F8F8F8;
+	}
+	
+	.two-buttons-custom:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#nameYourBurger {
+		margin-top: -7vw;
+		margin-left: 36vw;
+		font-size: 2.5vw;
+		color: white;
+	}
+	
+	#burgerName {
+		margin-left: 55vw;
+		margin-right: 20vw;
+		width: 25vw;
+		height: 2.5vw;
+		font-size: 2vw;
+	}
+	
+	#cancelAddingButton {
+		margin-left: 54vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+	
+	#doneAddingButton {
+		margin-left: 3vw;
+		margin-bottom: 10vw;
+		margin-top: 1.5vw;
+		width: 12vw;
+		font-size: 2vw;
+	}
+	
+	#cancelAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#doneAddingButton:hover {
+		background-color: #F8F8F8;
+	}
+	
+	#orderTitle {
+		font-size: 4vw;
+	}
+	
+	.orderItem {
+		padding-left: 10vw;
+		font-size: 2.5vw;
+	}
+
+	.removeItem {
+		font-size: 1.5vw;
+		color: black;
+	}
+
+	.removeItem:hover {
+		color: #AA0E20;
+	}
+
+	.itemPrice {
+		padding-right: 10vw;
+		float: right;
+		font-size: 2.5vw;
+	}
+
+	.itemIngredients {
+		margin-top: 1vw;
+		padding-left: 15vw;
+		font-size: 1.5vw;
+	}
+
+	#orderSubtotal {
+		padding-left: 10vw;
+		font-size: 3vw;
+	}
+
+	#subtotalAmount {
+		padding-right: 10vw;
+		float: right;
+		font-size: 2.5vw;
+	}
+
+	#orderTax {
+		padding-left: 10vw;
+		font-size: 3vw;
+	}
+
+	#taxAmount {
+		padding-right: 10vw;
+		float: right;
+		font-size: 2.5vw;
+	}
+
+	#orderTotal {
+		padding-left: 10vw;
+		font-size: 3vw;
+	}
+
+	#totalAmount {
+		padding-right: 10vw;
+		float: right;
+		font-size: 2.5vw;
+	}
+	
+	#checkoutButton {
+		margin-left: 35vw;
+		margin-right: 35vw;
+		margin-bottom: 5vw;
+		margin-top: 5vw;
+		width: 30vw;
+		font-size: 4vw;
+		background-color: #AA0E20;
+		color: white;
+	}
+	
+	#checkoutButton:hover {
+		background-color: #DD0612;
+	}
+	
+	#receiptContents {
+		font-family: 'Roboto Mono';
+		background-color: white;
+		color: black;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
+		margin-left: 30vw;
+		margin-right: 30vw;
+		width: 40vw;
+	}
+	
+	#storeTitle {
+		font-family: "arial black", "arial-black";
+		font-size: 3vw;
+	}
+
+	#storeInformationArea {
+		padding-top: 5vw;
+	}
+
+	.storeInformation {
+		text-align: center;
+		font-size: 1.25vw;
+	}
+
+	#orderNumber {
+		font-size: 1.5vw;
+		padding-left: 5vw;
+	}
+
+	.receiptItem {
+		padding-left: 5vw;
+		font-size: 1.75vw;
+	}
+
+	.receiptItemPrice {
+		padding-right: 5vw;
+		float: right;
+		font-size: 1.75vw;
+	}
+
+	.receiptItemIngredients {
+		margin-top: 1vw;
+		padding-left: 8vw;
+		font-size: 1.5vw;
+	}
+
+	#receiptSubtotal {
+		padding-left: 5vw;
+		font-size: 2vw;
+	}
+
+	#receiptSubtotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2vw;
+	}
+
+	#receiptTax {
+		padding-left: 5vw;
+		font-size: 2vw;
+	}
+
+	#receiptTaxAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2vw;
+	}
+
+	#receiptTotal {
+		padding-left: 5vw;
+		font-size: 2vw;
+	}
+
+	#receiptTotalAmount {
+		padding-right: 5vw;
+		float: right;
+		font-size: 2vw;
+	}
+
+	#asterisks {
+		padding-left: 5vw;
+		font-size: 1.5vw;
+	}
+
+	.thanks {
+		margin-top: 0;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		text-align: center;
+		font-size: 1.3vw;
+	}
+
+	#thanksArea {
+		padding-bottom: 5vw;
+	}
+}

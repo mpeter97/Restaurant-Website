@@ -1,0 +1,289 @@
+body {
+	background-color: #AA0E20;
+}
+
+h1 {
+  color: white;
+}
+
+
+.login, .register {
+	font-family: "arial-black", "arial black";
+}
+
+.loginContainer {
+  text-align: center;
+  margin-top: 20vh;
+  border-style: solid;
+  border-width: thin;
+  background: linear-gradient(#FF3333, #991111);
+  background: -webkit-linear-gradient(#FF3333, #991111);
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.loginContainer {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.login input {
+		width: 60%;
+		font-size: 3vw;
+	    padding: .5em;
+	    background-color: white;
+	    border-bottom: solid;
+	    border-width: thin;
+	    margin: .5em;
+	}
+	
+	#loginButton {
+		width: 20vw;
+		font-size: 4vw;
+		margin-top: 1em;
+	}
+	
+	#createAccountButton {
+		width: 50vw;
+		font-size: 4vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	#loginTitle {
+	  font-size: 10vw;
+	}
+	
+
+	
+	.register .row {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.register input {
+	  font-size: 2.5vw;
+	  padding: .5em;
+	  background-color: white;
+	  border-bottom: solid;
+	  border-width: thin;
+	  margin: .5em;
+	}
+	
+	#registerButton {
+		width: 25vw;
+		font-size: 4vw;
+		margin-top: 1em;
+	}
+	
+	#backToLoginButton {
+		width: 40vw;
+		font-size: 4vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	#registerTitle {
+		font-size: 6vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.loginContainer {
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	.login input {
+		width: 60%;
+		font-size: 2vw;
+	    padding: .5em;
+	    background-color: white;
+	    border-bottom: solid;
+	    border-width: thin;
+	    margin: .5em;
+	}
+	
+	#loginButton {
+		width: 15vw;
+		font-size: 2.5vw;
+		margin-top: 1em;
+	}
+	
+	#createAccountButton {
+		width: 32vw;
+		font-size: 2.5vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	#loginTitle {
+	  font-size: 8vw;
+	}
+	
+
+	.register .row {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.register input {
+	  font-size: 2vw;
+	  padding: .5em;
+	  background-color: white;
+	  border-bottom: solid;
+	  border-width: thin;
+	  margin: .5em;
+	}
+	
+	#registerButton {
+		width: 18vw;
+		font-size: 2.5vw;
+		margin-top: 1em;
+	}
+	
+	#backToLoginButton {
+		width: 25vw;
+		font-size: 2.5vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	
+	#registerTitle {
+		font-size: 4.5vw;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.loginContainer {
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.login input {
+		width: 60%;
+		font-size: 1.5vw;
+	    padding: .5em;
+	    background-color: white;
+	    border-bottom: solid;
+	    border-width: thin;
+	    margin: .5em;
+	}
+	
+	#loginButton {
+		width: 12vw;
+		font-size: 2vw;
+		margin-top: 1em;
+	}
+	
+	#createAccountButton {
+		width: 25vw;
+		font-size: 2vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	#loginTitle {
+	  font-size: 6vw;
+	}
+
+	.register .row {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.register input {
+	  font-size: 1.5vw;
+	  padding: .5em;
+	  background-color: white;
+	  border-bottom: solid;
+	  border-width: thin;
+	  margin: .5em;
+	}
+	
+	#registerButton {
+		width: 14vw;
+		font-size: 2vw;
+		margin-top: 1em;
+	}
+	
+	#backToLoginButton {
+		width: 21vw;
+		font-size: 2vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	
+	#registerTitle {
+		font-size: 3.75vw;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.loginContainer {
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+	
+	.login input {
+		width: 60%;
+		font-size: 1vw;
+	    padding: .5em;
+	    background-color: white;
+	    border-bottom: solid;
+	    border-width: thin;
+	    margin: .5em;
+	}
+	
+	#loginButton {
+		width: 8vw;
+		font-size: 1.3vw;
+		margin-top: 1em;
+	}
+	
+	#createAccountButton {
+		width: 16vw;
+		font-size: 1.3vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	#loginTitle {
+	  font-size: 5vw;
+	}
+	
+
+	.register .row {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.register input {
+	  font-size: 1.2vw;
+	  padding: .5em;
+	  background-color: white;
+	  border-bottom: solid;
+	  border-width: thin;
+	  margin: .5em;
+	}
+	
+	#registerButton {
+		width: 11vw;
+		font-size: 1.6vw;
+		margin-top: 1em;
+	}
+	
+	#backToLoginButton {
+		width: 16vw;
+		font-size: 1.6vw;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	
+	#registerTitle {
+		font-size: 3vw;
+	}
+}

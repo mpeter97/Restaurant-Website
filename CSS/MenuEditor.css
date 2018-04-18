@@ -1,0 +1,194 @@
+body {
+  font-family: "arial-black", "arial black";
+  background-color: #AA0E20;
+}
+
+.productNames {
+	display: inline;
+	padding-left: 0.5em;
+	color: white;
+}
+
+#burgersTitle, #sidesTitle, #drinksTitle {
+	color: white;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+#burgers-underline, #sides-underline, #drinks-underline {
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+
+@media screen and (max-width: 767px) {
+	#restaurant-selector {
+		margin-top: 5em;
+		margin-left: 20vw;
+		margin-right: 20vw;
+		width: 60vw;
+		font-size: 3.5vw;
+	}
+	
+	.productItem {
+		padding-left: 25vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.productNames {
+		font-size: 4vw;
+	}
+
+	.productCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 75%;
+	}
+
+	#sides-underline {
+	  width: 50%;
+	}
+
+	#drinks-underline {
+	  width: 60%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 10vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#restaurant-selector {
+		margin-top: 5em;
+		margin-left: 30vw;
+		margin-right: 30vw;
+		width: 40vw;
+		font-size: 2.5vw;
+	}
+	
+	.productItem {
+		padding-left: 8vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+	
+	.productNames {
+		font-size: 3vw;
+	}
+	
+	.productCheckBoxes {
+		margin-left: -0.4em;
+		width: 2em;
+		vertical-align: -0.5em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 60%;
+	}
+
+	#sides-underline {
+	  width: 40%;
+	}
+
+	#drinks-underline {
+	  width: 50%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 8vw;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#restaurant-selector {
+		margin-top: 5em;
+		margin-left: 32.5vw;
+		margin-right: 32.5vw;
+		width: 35vw;
+		font-size: 2.25vw;
+	}
+	
+	.productItem {
+		padding-left: 10vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.productNames {
+		font-size: 2.25vw;
+	}
+	
+	.productCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 50%;
+	}
+
+	#sides-underline {
+	  width: 35%;
+	}
+
+	#drinks-underline {
+	  width: 45%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 7vw;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#restaurant-selector {
+		margin-top: 5em;
+		margin-left: 35vw;
+		margin-right: 35vw;
+		width: 30vw;
+		font-size: 2vw;
+	}
+	
+	.productItem {
+		padding-left: 5vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+	}
+	
+	.productNames {
+		font-size: 2vw;
+	}
+	
+	.productCheckBoxes {
+		margin-left: -0.7em;
+		width: 2.5em;
+		vertical-align: -0.55em;
+		display: inline-block;
+	}
+	
+	#burgers-underline {
+	  width: 35%;
+	}
+
+	#sides-underline {
+	  width: 25%;
+	}
+
+	#drinks-underline {
+	  width: 30%;
+	}
+
+	#burgersTitle, #sidesTitle, #drinksTitle {
+	  font-size: 5vw;
+	}
+}

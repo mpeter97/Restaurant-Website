@@ -1,0 +1,488 @@
+body {
+  font-family: "arial-black", "arial black";
+  background-color: #AA0E20;
+}
+
+#topSpacing {
+	height: 3em;
+}
+
+@media screen and (max-width: 767px) {
+	#restaurant-selector {
+		margin-top: 2em;
+		margin-left: 20vw;
+		margin-right: 20vw;
+		width: 60vw;
+		font-size: 3.5vw;
+	}
+	
+	#info-type-selector {
+		margin-top: 2em;
+		margin-left: 20vw;
+		margin-right: 20vw;
+		width: 60vw;
+		font-size: 3.5vw;
+	}
+	
+	#order-selector {
+		margin-top: 2em;
+		margin-left: 20vw;
+		margin-right: 20vw;
+		width: 60vw;
+		font-size: 3.5vw;
+	}
+	
+	#employeeInfoNameTitle, #employeeInfoStoreNumberTitle, #employeeInfoNumOrdersFulfilledTitle {
+		color: white;
+		font-size: 3vw;
+		text-align: center;
+		margin-top: 20vw;
+	}
+
+	#restaurantInfoNameTitle, #restaurantInfoQuantityTitle, #restaurantInfoSalesTitle {
+		color: white;
+		font-size: 3vw;
+		text-align: center;
+	}
+
+	#restaurantInfoRestaurantLocation, #restaurantInfoRestaurantManager, #restaurantInfoRegionalManager {
+		color: white;
+		font-size: 3.5vw;
+		text-align: center
+	}
+
+	#restaurantInfoRestaurantLocation {
+		margin-top: 20vw;
+	}
+
+	#productInfoNameTitle, #productInfoQuantityTitle, #productInfoSalesTitle {
+		color: white;
+		font-size: 3vw;
+		text-align: center;
+		margin-top: 20vw;
+	}
+
+
+	.employeeInfoName, .employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		color: white;
+		font-size: 3.5vw;
+	}
+
+	.restaurantInfoName, .restaurantInfoQuantity, .restaurantInfoSales {
+		color: white;
+		font-size: 3.5vw;
+	}
+
+	.productInfoName, .productInfoQuantity, .productInfoSales {
+		color: white;
+		font-size: 3.5vw;
+	}
+
+	.employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		text-align: right;
+	}
+
+	.employeeInfoName {
+		margin-left: 5vw;
+	}
+
+	.employeeInfoStoreNumber {
+		margin-right: 2vw;
+	}
+
+	.employeeInfoNumOrdersFulfilled {
+		margin-right: 5vw;
+	}
+
+	.restaurantInfoQuantity, .restaurantInfoSales {
+		text-align: right;
+	}
+
+	.restaurantInfoName {
+		margin-left: 5vw;
+	}
+
+	.restaurantInfoQuantity {
+		margin-right: 2vw;
+	}
+
+	.restaurantInfoSales {
+		margin-right: 5vw;
+	}
+
+	.productInfoQuantity, .productInfoSales {
+		text-align: right;
+	}
+
+	.productInfoName {
+		margin-left: 5vw;
+	}
+
+	.productInfoQuantity {
+		margin-right: 2vw;
+	}
+
+	.productInfoSales {
+		margin-right: 5vw;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#restaurant-selector {
+		margin-top: 2em;
+		margin-left: 30vw;
+		margin-right: 30vw;
+		width: 40vw;
+		font-size: 2.5vw;
+	}
+	
+	#info-type-selector {
+		margin-top: 2em;
+		margin-left: 30vw;
+		margin-right: 30vw;
+		width: 40vw;
+		font-size: 2.5vw;
+	}
+	
+	#order-selector {
+		margin-top: 2em;
+		margin-left: 30vw;
+		margin-right: 30vw;
+		width: 40vw;
+		font-size: 2.5vw;
+	}
+	
+	#employeeInfoNameTitle, #employeeInfoStoreNumberTitle, #employeeInfoNumOrdersFulfilledTitle {
+		color: white;
+		font-size: 2.5vw;
+		text-align: center;
+		margin-top: 20vw;
+	}
+
+	#restaurantInfoNameTitle, #restaurantInfoQuantityTitle, #restaurantInfoSalesTitle {
+		color: white;
+		font-size: 2.5vw;
+		text-align: center;
+	}
+
+	#restaurantInfoRestaurantLocation, #restaurantInfoRestaurantManager, #restaurantInfoRegionalManager {
+		color: white;
+		font-size: 3vw;
+		text-align: center
+	}
+
+	#restaurantInfoRestaurantLocation {
+		margin-top: 20vw;
+	}
+
+	#productInfoNameTitle, #productInfoQuantityTitle, #productInfoSalesTitle {
+		color: white;
+		font-size: 2.5vw;
+		text-align: center;
+		margin-top: 20vw;
+	}
+
+
+	.employeeInfoName, .employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		color: white;
+		font-size: 3vw;
+	}
+
+	.restaurantInfoName, .restaurantInfoQuantity, .restaurantInfoSales {
+		color: white;
+		font-size: 3vw;
+	}
+
+	.productInfoName, .productInfoQuantity, .productInfoSales {
+		color: white;
+		font-size: 3vw;
+	}
+
+	.employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		text-align: right;
+	}
+
+	.employeeInfoName {
+		margin-left: 5vw;
+	}
+
+	.employeeInfoStoreNumber {
+		margin-right: 5vw;
+	}
+
+	.employeeInfoNumOrdersFulfilled {
+		margin-right: 5vw;
+	}
+
+	.restaurantInfoQuantity, .restaurantInfoSales {
+		text-align: right;
+	}
+
+	.restaurantInfoName {
+		margin-left: 5vw;
+	}
+
+	.restaurantInfoQuantity {
+		margin-right: 4vw;
+	}
+
+	.restaurantInfoSales {
+		margin-right: 6vw;
+	}
+
+	.productInfoQuantity, .productInfoSales {
+		text-align: right;
+	}
+
+	.productInfoName {
+		margin-left: 5vw;
+	}
+
+	.productInfoQuantity {
+		margin-right: 4vw;
+	}
+
+	.productInfoSales {
+		margin-right: 6vw;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#restaurant-selector {
+		margin-top: 2em;
+		margin-left: 32.5vw;
+		margin-right: 32.5vw;
+		width: 35vw;
+		font-size: 2.25vw;
+	}
+	
+	#info-type-selector {
+		margin-top: 2em;
+		margin-left: 32.5vw;
+		margin-right: 32.5vw;
+		width: 35vw;
+		font-size: 2.25vw;
+	}
+	
+	#order-selector {
+		margin-top: 2em;
+		margin-left: 32.5vw;
+		margin-right: 32.5vw;
+		width: 35vw;
+		font-size: 2.25vw;
+	}
+	
+	#employeeInfoNameTitle, #employeeInfoStoreNumberTitle, #employeeInfoNumOrdersFulfilledTitle {
+		color: white;
+		font-size: 2.25vw;
+		text-align: center;
+		margin-top: 20vw;
+	}
+
+	#restaurantInfoNameTitle, #restaurantInfoQuantityTitle, #restaurantInfoSalesTitle {
+		color: white;
+		font-size: 2.25vw;
+		text-align: center;
+	}
+
+	#restaurantInfoRestaurantLocation, #restaurantInfoRestaurantManager, #restaurantInfoRegionalManager {
+		color: white;
+		font-size: 2.5vw;
+		text-align: center
+	}
+
+	#restaurantInfoRestaurantLocation {
+		margin-top: 20vw;
+	}
+
+	#productInfoNameTitle, #productInfoQuantityTitle, #productInfoSalesTitle {
+		color: white;
+		font-size: 2.25vw;
+		text-align: center;
+		margin-top: 20vw;
+	}
+
+
+	.employeeInfoName, .employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		color: white;
+		font-size: 2.5vw;
+	}
+
+	.restaurantInfoName, .restaurantInfoQuantity, .restaurantInfoSales {
+		color: white;
+		font-size: 2.5vw;
+	}
+
+	.productInfoName, .productInfoQuantity, .productInfoSales {
+		color: white;
+		font-size: 2.5vw;
+	}
+
+	.employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		text-align: right;
+	}
+
+	.employeeInfoName {
+		margin-left: 5vw;
+	}
+
+	.employeeInfoStoreNumber {
+		margin-right: 5vw;
+	}
+
+	.employeeInfoNumOrdersFulfilled {
+		margin-right: 5vw;
+	}
+
+	.restaurantInfoQuantity, .restaurantInfoSales {
+		text-align: right;
+	}
+
+	.restaurantInfoName {
+		margin-left: 5vw;
+	}
+
+	.restaurantInfoQuantity {
+		margin-right: 5vw;
+	}
+
+	.restaurantInfoSales {
+		margin-right: 7vw;
+	}
+
+	.productInfoQuantity, .productInfoSales {
+		text-align: right;
+	}
+
+	.productInfoName {
+		margin-left: 5vw;
+	}
+
+	.productInfoQuantity {
+		margin-right: 5vw;
+	}
+
+	.productInfoSales {
+		margin-right: 7vw;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#restaurant-selector {
+		margin-top: 2em;
+		margin-left: 35vw;
+		margin-right: 35vw;
+		width: 30vw;
+		font-size: 2vw;
+	}
+	
+	#info-type-selector {
+		margin-top: 2em;
+		margin-left: 35vw;
+		margin-right: 35vw;
+		width: 30vw;
+		font-size: 2vw;
+	}
+	
+	#order-selector {
+		margin-top: 2em;
+		margin-left: 35vw;
+		margin-right: 35vw;
+		width: 30vw;
+		font-size: 2vw;
+	}
+	
+	#employeeInfoNameTitle, #employeeInfoStoreNumberTitle, #employeeInfoNumOrdersFulfilledTitle {
+		color: white;
+		font-size: 2vw;
+		text-align: center;
+		margin-top: 15vw;
+	}
+
+	#restaurantInfoNameTitle, #restaurantInfoQuantityTitle, #restaurantInfoSalesTitle {
+		color: white;
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	#restaurantInfoRestaurantLocation, #restaurantInfoRestaurantManager, #restaurantInfoRegionalManager {
+		color: white;
+		font-size: 2.25vw;
+		text-align: center
+	}
+
+	#restaurantInfoRestaurantLocation {
+		margin-top: 15vw;
+	}
+
+	#productInfoNameTitle, #productInfoQuantityTitle, #productInfoSalesTitle {
+		color: white;
+		font-size: 2vw;
+		text-align: center;
+		margin-top: 15vw;
+	}
+
+
+	.employeeInfoName, .employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		color: white;
+		font-size: 2.25vw;
+	}
+
+	.restaurantInfoName, .restaurantInfoQuantity, .restaurantInfoSales {
+		color: white;
+		font-size: 2.25vw;
+	}
+
+	.productInfoName, .productInfoQuantity, .productInfoSales {
+		color: white;
+		font-size: 2.25vw;
+	}
+
+	.employeeInfoStoreNumber, .employeeInfoNumOrdersFulfilled {
+		text-align: right;
+	}
+
+	.employeeInfoName {
+		margin-left: 8vw;
+	}
+
+	.employeeInfoStoreNumber {
+		margin-right: 5vw;
+	}
+
+	.employeeInfoNumOrdersFulfilled {
+		margin-right: 5vw;
+	}
+
+	.restaurantInfoQuantity, .restaurantInfoSales {
+		text-align: right;
+	}
+
+	.restaurantInfoName {
+		margin-left: 8vw;
+	}
+
+	.restaurantInfoQuantity {
+		margin-right: 6vw;
+	}
+
+	.restaurantInfoSales {
+		margin-right: 8vw;
+	}
+
+	.productInfoQuantity, .productInfoSales {
+		text-align: right;
+	}
+
+	.productInfoName {
+		margin-left: 8vw;
+	}
+
+	.productInfoQuantity {
+		margin-right: 6vw;
+	}
+
+	.productInfoSales {
+		margin-right: 8vw;
+	}
+}
